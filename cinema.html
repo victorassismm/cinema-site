@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Popcorn Time</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="app.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        
+</head>
+
+
+<body class="corpo" onload="carregaFilmesImg()">
+    <header class="container">
+        <div class="row">
+            <div class="col-12 header-menu">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-1">
+                        <img src="imgs/popcorn_logo.png" class="logo">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 menu">
+                        <div class="container_nav">
+                            <input type="checkbox" id="menuToggle">
+                            <label for="menuToggle" class="menu-icon">
+                                <i class="fa fa-bars"></i>
+                                <i class="fa fa-times-circle"></i>
+                            </label>
+
+                            <nav class="nav menu1">
+                                <a class="nav-link active" href="pesquisa.html">Lançamentos</a>
+                                <a class="nav-link" href="pesquisa.html">Em destaque</a>
+                                <a class="nav-link" href="pesquisa.html">Avaliações</a>
+                                <a class="nav-link" href="pesquisa.html">Novidades</a>
+                                <a class="nav-link" href="pesquisa.html">Pagina de Pesquisa</a>
+
+                            </nav>
+
+                        </div>
+                    </div>
+                    <div class="col-3 pesquisa">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+
+
+    <main class="container">
+        <div class="col-12">
+            <section class="row lancamentos">
+                <div class="col-12 lanca">
+                    <h1>Lançamentos</h1>
+
+                </div>
+                <div class="col-12 carrosel">
+                    <div class="row">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="col-12 carousel_body">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                                <iframe id="yt" width="530" height="315"
+                                                    src="https://www.youtube.com/embed/Qd7nqIzeqGY"
+                                                    title="YouTube video player" frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen></iframe>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                                <h2>A Guerra do Amanhã</h2>
+                                                <p> <strong>Sinopse:</strong> A Guerra do Amanhã é um futuro filme de
+                                                    ficção científica militar americano dirigido por Chris McKay em sua
+                                                    estréia na direção de live-action, produzido por David Ellison, Dana
+                                                    Goldberg, Don Granger, David S. Goyer, Jules Daly e Adam Kolbrenner
+                                                    e escrito por Zach Reitor. Um homem é convocado para lutar em uma
+                                                    guerra futura, onde o destino da humanidade depende de sua
+                                                    capacidade de confrontar seu passado.
+                                                </p>
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <p><strong>Diretor: </strong>Chris McKay</p>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <p><strong>Roteiro: </strong>Zach Dean</p>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <p><strong>Estreia:</strong> 2021</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <strong>Elenco:</strong>
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                        <div class="col-3">
+                                                            <p> Chris Pratt</p>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <p>Yvonne Strahovski</p>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <p>J.K. Simmons</p>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <p>Sam Richardson</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <strong>avaliações:</strong>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-12 carousel_body">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                                <iframe id="yt" width="530" height="315"
+                                                    src="https://www.youtube.com/embed/AaUdMfh5j3U"
+                                                    title="YouTube video player" frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen></iframe>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                                <h2>Amor e Monstros</h2>
+                                                <p> <strong>Sinopse:</strong> Amor and Monsters é um filme de comédia
+                                                    romântica e ação pós-apocalíptica dirigido por Michael Matthews, e
+                                                    produzido por Shawn Levy e Dan Cohen. O filme é estrelado por Dylan
+                                                    O'Brien, Michael Rooker, Ariana Greenblatt e Jessica Henwick. Sete
+                                                    anos depois de ter sobrevivido ao apocalipse monstruoso, o
+                                                    amorosamente infeliz Joel deixa seu aconchegante bunker subterrâneo
+                                                    para trás em uma missão para se reunir com sua ex.
+                                                </p>
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <p><strong>Diretor: </strong>Michael Matthews</p>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <p><strong>Roteiro: </strong>Brian Duffield</p>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <p><strong>Estreia:</strong> 2021</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <strong>Elenco:</strong>
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                        <div class="col-3">
+                                                            <p>Dylan O'Brien</p>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <p>Jessica Henwick</p>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <p>Michael Rooker</p>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <p>Dan Ewing</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <strong>avaliações:</strong>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-12 carousel_body">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                                <iframe id="yt" width="530" height="315"
+                                                    src="https://www.youtube.com/embed/M6hLhA6hsnw"
+                                                    title="YouTube video player" frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen></iframe>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                                <h2>Red</h2>
+                                                <p> <strong>Sinopse:</strong> Red é um thriller de ação em idioma télugo
+                                                    indiano de 2021, dirigido por Kishore Tirumala e produzido por
+                                                    Sravanthi Ravi Kishore sob os filmes Sri Sravanthi. É estrelado por
+                                                    Ram Pothineni em um papel duplo ao lado de Nivetha Pethuraj,
+                                                    Malavika Sharma e Amritha Aiyer. Uma evidência em foto, dois
+                                                    suspeitos semelhantes e apenas 48 horas são tudo o que os policiais
+                                                    têm para resolver um caso de assassinato.
+                                                </p>
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <p><strong>Diretor: </strong>Thirumala Kishore</p>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <p><strong>Roteiro: </strong>Magizh Thirumeni</p>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <p><strong>Estreia:</strong> 2021</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <strong>Elenco:</strong>
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                        <div class="col-3">
+                                                            <p>Ram Pothineni</p>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <p>Nivetha Pethuraj</p>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <p>Malvika Sharma</p>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <p>Amritha Aiyer</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <strong>avaliações:</strong>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Anterior</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Próximo</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="row em_destaque">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-6">
+                            <h1>Em Destaque</h1>
+                        </div>
+                        <div class="col-6">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Categorias
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Ação</a>
+                                    <a class="dropdown-item" href="#">Romance</a>
+                                    <a class="dropdown-item" href="#">Drama</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="row destaques">
+                <div class="col-12">
+                    <div class="row" id="tela1">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <img src="#" class="img-destaques">
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <img src="#" class="img-destaques">
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <img src="#" class="img-destaques">
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <img src="#" class="img-destaques">
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-12 botao">
+                    <button type="button" class="btn btn-outline-info" onclick="carregaFilmesImg2()">Ver Mais</button>
+                </div>
+            </section>
+
+
+
+            <section class="row avalia">
+                <div class="col-12">
+                    <h1>
+                        Ultimas Avaliações
+                    </h1>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                            <div class="row">
+                                <div class="col-4 col-sm-4 col-md-3 col-lg-4">
+                                    <img src="imgs/Avatar.svg" class="pessoas">
+                                </div>
+                                <div class="col-8 col-sm-8 col-md-9 col-lg-8">
+                                    <h5>Jonatas Alves</h5>
+                                    <p>
+                                        <span>Avaliação: </span>Vou direto ao ponto. Dei muita risada com o filme Amor e
+                                        Monstros. A
+                                        fotografia do filme está muito boa, eu gostei muito das tomadas durante as cenas
+                                        de ação. Outra coisa que me deixou satisfeito foram as cenas de ação, realmente
+                                        prenderam minha atenção, e nada forçado, é tipo, natural, aquela vontade de ver
+                                        o que vai acontecer.
+                                    </p>
+                                    <div class="ava-rate">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <strong>25/04/2021</strong>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                            <div class="row">
+                                <div class="col-4 col-sm-4 col-md-3 col-lg-4">
+                                    <img src="imgs/Avatar.svg" class="pessoas">
+                                </div>
+                                <div class="col-8 col-sm-8 col-md-9 col-lg-8">
+                                    <h5>Marco Aurelio</h5>
+                                    <p>
+                                        <span>Avaliação: </span>Lembrando que se trata de um remake, aproveite o filme
+                                        Red
+                                        ignorando o conceito. Música, cinema, performance, tudo parece perfeito. Nem uma
+                                        única cena é indesejada. Excelentes diálogos simples e profundos que se conectam
+                                        ao público. A magia de Manisharma garu funcionou novamente. Vale a pena
+                                        assistir ao filme !!!!
+                                    </p>
+                                    <div class="ava-rate">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <strong>25/04/2021</strong>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                            <div class="row">
+                                <div class="col-4 col-sm-4 col-md-3 col-lg-4">
+                                    <img src="imgs/Avatar.svg" class="pessoas">
+                                </div>
+                                <div class="col-8 col-sm-8 col-md-9 col-lg-8">
+                                    <h5>William</h5>
+                                    <p>
+                                        <span>Avaliação: </span>Divertido e carismático!!
+                                        Após Scott Lang ser escolhido a dedo por Hank Pym, ele se torna o novo homem
+                                        formiga, detentor do traje que encolhe. Deve então realizar uma missão para
+                                        salvar a empresa de Hank e a humanidade. Um filme totalmente diferente,
+                                        mostrando visualmente uma nova perspectiva, aos olhos de uma formiga.
+                                    </p>
+                                    <div class="ava-rate">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <strong>25/04/2021</strong>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 botao">
+                    <button type="button" class="btn btn-outline-info">Carregar Mais Avaliações</button>
+                </div>
+            </section>
+            <section class="row">
+                <div class="col-12">
+                    <h1>Entrevistas & Making of</h1>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                                <iframe width="auto" height="300px" src="https://www.youtube.com/embed/3QumA5o_oNI"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                                <div class="card-body">
+                                    <h5 class="card-title">Entrevista com Elenco de Velozes e Furiosos 9</h5>
+                                    <p class="card-text">A regata que o Fábio tá usando não é atoa, já que ele
+                                        entrevistou o Vin Diesel, a Michelle Rodriguez e o John Cena, pra falar sobre
+                                        Velozes e Furiosos 9 que segue ignorando a física e a lógica para entregar mais
+                                        um filme da franquia com o máximo de ação, destruição e diversão possível.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                                <iframe width="auto" height="300" src="https://www.youtube.com/embed/Ciu5yQYwJgY"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                                <div class="card-body">
+                                    <h5 class="card-title">Making Of Avengers: Age Of Ultron</h5>
+                                    <p class="card-text">Jen Underdahl, Produtora de Efeitos Visuais da Marvel
+                                        Entertainment, fornece a WIRED uma visão aprofundada dos efeitos visuais mais
+                                        impressionantes apresentados em Avengers: Endgame and Infinity War. Jen explica
+                                        como eles criaram "Smart Hulk", fizeram Chris Evans parecer consideravelmente
+                                        mais velho e como eles foram capazes de criar digitalmente todos os trajes do
+                                        tempo dos Vingadores.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                                <iframe width="auto" height="300" src="https://www.youtube.com/embed/cLVNJ50vCDI"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                                <div class="card-body">
+                                    <h5 class="card-title">Joker | Behind The Scenes</h5>
+                                    <p class="card-text">O elenco e a equipe que trouxeram o fenômeno internacional
+                                        Joker para a tela discutem a atuação ganhadora do Oscar de JoaquinPhoenix como
+                                        ArthurFleck. Apresentando o produtor BradleyCooper e o diretor ToddPhillips</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 botao">
+                    <button type="button" class="btn btn-outline-info">Mais Entrevistas</button>
+                </div>
+            </section>
+
+            <section class="row ns">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                    <h1>Novidades</h1>
+                    <div class="row noticias">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                            <img src="imgs/Marvel_Logo.svg" class="img-noticia">
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-7 conteudo-noticia">
+                            <strong>Filmes mais esperados da Marvel e DC</strong>
+                            <p>
+                                Entre os filmes da Marvel e DC com lançamentos esperados nos cinemas e / ou streaming
+                                nos EUA em 2021 e 2022, estes 10 foram consistentemente os mais populares
+                            </p>
+                            <div class="topicos">
+                                <span>hollywood</span>
+                                <span>oscar</span>
+                                <span>melhores filmes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row noticias">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                            <img src="imgs/oscar.1.jpg" class="img-noticia">
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-7 conteudo-noticia">
+                            <strong>Oscar 2021</strong>
+                            <p>
+                                Os filmes vencedores do Oscar de 2021 que você precisa assistir. Descubra alguns de
+                                nossos favoritos na ampla gama de filmes que a Academia escolheu para homenagear na
+                                maior noite de Hollywood.
+                            </p>
+                            <div class="topicos">
+                                <span>hollywood</span>
+                                <span>oscar</span>
+                                <span>melhores filmes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row noticias">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                            <img src="imgs/america.jpg" class="img-noticia">
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-7 conteudo-noticia">
+                            <strong>Capitão América 4</strong>
+                            <p>
+                                O que queremos ver em Capitão América 4: Longa foi confirmado horas após episódio final
+                                de Falcão e o Soldado Invernal ser disponibilizado no Disney+
+                            </p>
+                            <div class="topicos">
+                                <span>hollywood</span>
+                                <span>oscar</span>
+                                <span>melhores filmes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1>Sobre</h1>
+                            <p>Esse site foi criado com o objetivo da entrega de um trabalho do curso de desenvolvimento
+                                de interfaces web(DIW) feito pelo aluno Victor Assis. Reune os lançamentos, reviws,
+                                novidades do cinema atual, filmes mais populares.</p>
+                            <h1>Editorial</h1>
+                            <div>
+                                <img src="imgs/Avatar.svg" class="avatar">
+                                <strong>Redação: </strong>
+                                <span>Victor Assis</span>
+
+                            </div>
+                            <div>
+                                <img src="imgs/Avatar.svg" class="avatar">
+                                <strong>Pesquisa: </strong>
+                                <span>Victor Assis</span>
+
+                            </div>
+                            <div>
+                                <img src="imgs/Avatar.svg" class="avatar">
+                                <strong>gerente geral: </strong>
+                                <span>Victor Assis</span>
+
+                            </div>
+                            <div>
+                                <strong>Redes Sociais</strong>
+                                <div class="redes">
+                                    <img src="imgs/facebook.png" class="fb">
+                                    <img src="imgs/twitter.png" class="tt">
+                                    <img src="imgs/Instagram.png" class="ig">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+        </div>
+
+
+    </main>
+
+
+    <footer class="container rodape">
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-11 cop">
+                        Copyright 2020 - Disciplina de Desenvolvimento de Interfaces Web - ICEI PUC Minas, Aluno: Victor
+                        Assis
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-1">
+                        <img src="imgs/popcorn_logo.png" class="logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+    
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
